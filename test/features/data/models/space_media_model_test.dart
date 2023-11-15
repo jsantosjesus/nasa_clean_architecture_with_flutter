@@ -20,7 +20,7 @@ void main() {
 
   test('shold return a valid model', () {
     //Arrange
-    final Map<String, dynamic> jsonMap = json.decode(spaceMediMock);
+    final Map<String, dynamic> jsonMap = json.decode(spaceMediaMock);
     //Act
     final result = SpaceMediaModel.fromJson(jsonMap);
     //Assert
