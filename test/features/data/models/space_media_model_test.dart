@@ -5,13 +5,9 @@ import 'package:nasa_clean_architecture_with_flutter/features/data/models/space_
 import 'package:nasa_clean_architecture_with_flutter/features/domain/entities/space_media_entity.dart';
 
 import '../../../mocks/space_media_mock.dart';
+import '../../../mocks/space_media_model_mock.dart';
 
 void main() {
-  final tSpaceMediaModel = SpaceMediaModel(
-      description: 'description',
-      mediaType: 'mediaType',
-      title: 'title',
-      mediaUrl: 'mediaUrl');
   setUp(() {});
 
   test('shold be a subclass of SpaceMediaEntity', () {
